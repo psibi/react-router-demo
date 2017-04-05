@@ -55,8 +55,6 @@ class App extends Component {
   }
 }
 
-
-
 export const SPRouter = () => (
   <Router history={hashHistory}>
     <div>
