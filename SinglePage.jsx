@@ -4,8 +4,6 @@ import {
   HashRouter as Router,
   Route,
   hashHistory,
-  IndexRoute,
-  IndexLink,
   Link
 } from 'react-router-dom'
 
@@ -30,10 +28,6 @@ const Contact = () => (
 )
 
 class App extends Component {
-  
-  constructor(props) {
-    super(props);
-  }
   
   render() {
     const { children } = this.props;
