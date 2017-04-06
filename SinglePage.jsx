@@ -25,6 +25,7 @@ const Contact = ({ history }) => (
   <div>
     <h2>Contact</h2>
     <button onClick={() => history.push('/stuff')}> Go to Stuff view </button>
+    <button onClick={() => hashHistory.push('/stuff')}> Go to Stuff view via hashHistory </button>
   </div>
 )
 
