@@ -21,9 +21,10 @@ const Stuff = () => (
   </div>
 )
 
-const Contact = () => (
+const Contact = ({ history }) => (
   <div>
     <h2>Contact</h2>
+    <button onClick={() => history.push('/stuff')}> Go to Stuff view </button>
   </div>
 )
 
