@@ -1,8 +1,9 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
 /* import App from './App';*/
-import { SPRouter } from './SinglePage';
+/* import { SPRouter } from './SinglePage';*/
 /* import BasicExample from './BasicExample';*/
+import { SameViewWithParam } from './SameViewWithParam';
 import './index.css';
 
 /* ReactDOM.render(
@@ -11,7 +12,12 @@ import './index.css';
  * );*/
 
 
+/* ReactDOM.render(
+ *   <SPRouter />,
+ *   document.getElementById('root')
+ * );*/
+
 ReactDOM.render(
-  <SPRouter />,
+  <SameViewWithParam />,
   document.getElementById('root')
 );
